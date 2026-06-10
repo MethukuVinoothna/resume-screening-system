@@ -1,95 +1,93 @@
-# AI Resume Screening System
+# 🤖 AI Resume Screening System and ATS Analyser
 
-## Overview
+### 📄 ATS Score Analyzer | 🧠 Skill Extraction | 💼 Job Recommendation System
 
-AI Resume Screening System is a Streamlit-based web application that analyzes resumes and evaluates their compatibility with job descriptions. The system calculates an ATS (Applicant Tracking System) score, extracts key skills, identifies missing skills, and provides personalized job recommendations.
+An AI-powered Resume Screening System built with **Python** and **Streamlit** that helps job seekers analyze resumes, calculate ATS scores, identify missing skills, and receive job recommendations.
 
-## Features
+---
 
-* Resume PDF Upload
-* ATS Score Calculation
-* Resume Analysis
-* Skill Extraction
-* Missing Skills Identification
-* Job Recommendations
-* Interactive User Interface
-* Real-time Results
+## ✨ Features
 
-## Tech Stack
+✅ Resume PDF Upload
 
-### Frontend
+✅ ATS Score Calculation
 
-* Streamlit
+✅ Skill Extraction
 
-### Backend
+✅ Missing Skills Detection
 
-* Python
+✅ Resume Analysis
 
-### Libraries Used
+✅ Job Recommendations
 
-* Pandas
-* NumPy
-* Scikit-learn
-* PyPDF2 / PDF Processing Libraries
-* NLTK
-* Regular Expressions (Regex)
+✅ Interactive Dashboard
 
-## Project Workflow
+✅ Real-time Processing
 
-1. Upload a resume in PDF format.
-2. Extract text from the resume.
-3. Analyze skills and keywords.
-4. Compare resume content with job requirements.
-5. Calculate ATS compatibility score.
-6. Generate recommendations for improvement.
-7. Suggest relevant job opportunities.
+---
 
-## Installation
+## 🛠️ Tech Stack
 
-Clone the repository:
+| Technology      | Usage                       |
+| --------------- | --------------------------- |
+| 🐍 Python       | Backend Logic               |
+| 🎈 Streamlit    | Web Application             |
+| 🐼 Pandas       | Data Processing             |
+| 🔢 NumPy        | Numerical Operations        |
+| 🤖 Scikit-Learn | Machine Learning            |
+| 📄 PyPDF2       | PDF Text Extraction         |
+| 🧠 NLTK         | Natural Language Processing |
 
-```bash
-git clone https://github.com/MethukuVinoothna/resume-screening-system.git
-```
+---
 
-Navigate to the project directory:
+## 🚀 Workflow
 
-```bash
-cd resume-screening-system
-```
+📄 Upload Resume
 
-Install dependencies:
+⬇️
 
-```bash
-pip install -r requirements.txt
-```
+🔍 Extract Resume Content
 
-Run the application:
+⬇️
 
-```bash
-streamlit run app.py
-```
+🧠 Analyze Skills & Keywords
 
-## Project Structure
+⬇️
+
+📊 Calculate ATS Score
+
+⬇️
+
+💡 Generate Suggestions
+
+⬇️
+
+💼 Recommend Suitable Jobs
+
+---
+
+## 📂 Project Structure
 
 ```text
 resume-screening-system/
 │
-├── app.py
-├── ats.py
-├── skills.py
-├── suggestions.py
-├── recommender.py
-├── utils.py
-├── jobs.csv
-├── requirements.txt
-└── README.md
+├── 📄 app.py
+├── 📄 ats.py
+├── 📄 skills.py
+├── 📄 suggestions.py
+├── 📄 recommender.py
+├── 📄 utils.py
+├── 📊 jobs.csv
+├── 📋 requirements.txt
+└── 📘 README.md
 ```
 
-## Future Enhancements
+## 🔮 Future Enhancements
 
-* AI-powered resume feedback
-* Resume ranking system
-* Multiple job role support
-* Advanced NLP-based skill matching
-* Resume improvement suggestions using Generative AI
+* 🤖 Generative AI Resume Feedback
+* 📈 Resume Ranking System
+* 🎯 Advanced ATS Matching
+* 🌐 Multiple Job Domain Support
+* 🧠 LLM-based Resume Suggestions
+
+---
