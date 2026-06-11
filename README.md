@@ -1,68 +1,76 @@
-# 🤖 AI Resume Screening System and ATS Analyser
+# 🤖 AI Resume Screening System & ATS Analyzer
 
-### 📄 ATS Score Analyzer | 🧠 Skill Extraction | 💼 Job Recommendation System
+### 📄 ATS Score Analysis | 🧠 Skill Extraction | 💼 Job Recommendation Engine | 🎯 Resume Optimization
 
-An AI-powered Resume Screening System built with **Python** and **Streamlit** that helps job seekers analyze resumes, calculate ATS scores, identify missing skills, and receive job recommendations.
+An AI-powered Resume Screening System developed using **Python**, **Machine Learning**, and **Streamlit** that helps job seekers evaluate resumes against job descriptions. The system calculates ATS compatibility scores, identifies missing skills, provides improvement suggestions, and recommends suitable job roles based on the candidate's profile.
 
 ---
 
 ## ✨ Features
 
-✅ Resume PDF Upload
+✅ Resume PDF Upload & Parsing
 
 ✅ ATS Score Calculation
 
-✅ Skill Extraction
+✅ Resume–Job Description Matching
+
+✅ Skill Extraction & Analysis
 
 ✅ Missing Skills Detection
 
-✅ Resume Analysis
+✅ Keyword Matching
 
-✅ Job Recommendations
+✅ Personalized Resume Suggestions
 
-✅ Interactive Dashboard
+✅ Job Recommendation System
 
-✅ Real-time Processing
+✅ Interactive Streamlit Dashboard
+
+✅ Real-Time Resume Evaluation
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Technology      | Usage                       |
+| Technology      | Purpose                     |
 | --------------- | --------------------------- |
-| 🐍 Python       | Backend Logic               |
-| 🎈 Streamlit    | Web Application             |
-| 🐼 Pandas       | Data Processing             |
-| 🔢 NumPy        | Numerical Operations        |
-| 🤖 Scikit-Learn | Machine Learning            |
-| 📄 PyPDF2       | PDF Text Extraction         |
+| 🐍 Python       | Backend Development         |
+| 🎈 Streamlit    | Web Application Interface   |
+| 🐼 Pandas       | Data Processing & Analysis  |
+| 🔢 NumPy        | Numerical Computation       |
+| 🤖 Scikit-Learn | Machine Learning Algorithms |
+| 📄 PyPDF2       | Resume Text Extraction      |
 | 🧠 NLTK         | Natural Language Processing |
 
 ---
 
-## 🚀 Workflow
+## 🚀 System Workflow
 
-📄 Upload Resume
+📄 Upload Resume (PDF)
 
-⬇️
+        ⬇️
 
 🔍 Extract Resume Content
 
-⬇️
+        ⬇️
 
 🧠 Analyze Skills & Keywords
 
-⬇️
+        ⬇️
 
-📊 Calculate ATS Score
+📊 Calculate ATS Compatibility Score
 
-⬇️
+        ⬇️
 
-💡 Generate Suggestions
+🎯 Identify Missing Skills
 
-⬇️
+        ⬇️
 
-💼 Recommend Suitable Jobs
+💡 Generate Resume Improvement Suggestions
+
+        ⬇️
+
+💼 Recommend Relevant Job Roles
 
 ---
 
@@ -71,23 +79,45 @@ An AI-powered Resume Screening System built with **Python** and **Streamlit** th
 ```text
 resume-screening-system/
 │
-├── 📄 app.py
-├── 📄 ats.py
-├── 📄 skills.py
-├── 📄 suggestions.py
-├── 📄 recommender.py
-├── 📄 utils.py
-├── 📊 jobs.csv
-├── 📋 requirements.txt
-└── 📘 README.md
+├── 📄 app.py              # Main Streamlit Application
+├── 📄 ats.py              # ATS Score Calculation
+├── 📄 skills.py           # Skill Extraction & Matching
+├── 📄 suggestions.py      # Resume Improvement Suggestions
+├── 📄 recommender.py      # Job Recommendation Engine
+├── 📄 utils.py            # Utility Functions
+├── 📊 jobs.csv            # Job Recommendation Dataset
+├── 📋 requirements.txt    # Project Dependencies
+└── 📘 README.md           # Project Documentation
 ```
+
+---
+
+## 🎯 Project Objectives
+
+* Improve resume ATS compatibility.
+* Help candidates identify missing skills.
+* Provide actionable resume enhancement suggestions.
+* Recommend relevant job opportunities based on skill sets.
+* Automate the initial resume screening process.
+
+---
 
 ## 🔮 Future Enhancements
 
-* 🤖 Generative AI Resume Feedback
-* 📈 Resume Ranking System
-* 🎯 Advanced ATS Matching
-* 🌐 Multiple Job Domain Support
-* 🧠 LLM-based Resume Suggestions
+* 🤖 Generative AI-Powered Resume Feedback
+* 📈 Resume Ranking & Comparison System
+* 🎯 Advanced ATS Matching Algorithms
+* 🌐 Multi-Domain Job Recommendation Support
+* 🧠 LLM-Based Resume Optimization
+* 📄 DOCX Resume Support
+* 📊 Detailed Analytics Dashboard
+
+---
+
+## 🌐 Live Demo
+
+🚀 **Try the Application Here**
+
+**https://resume-screening-system-rtmesknn9vwx3vwnwbl8jj.streamlit.app/**
 
 ---
